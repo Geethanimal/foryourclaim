@@ -1,0 +1,35 @@
+.bg{
+    background-image: url("Offsetting-aerial-road-system.jpg");
+    width: 100%;
+    height: 100vh;
+    opacity: 80%;
+}
+.clone{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.form-control {
+    background-color: #212529;
+    border: 1px solid #fff;
+    caret-color: #fff;
+    color: #fff;
+    height: 45px;
+    margin-top: 14px;
+    border-radius: 15px;
+    
+}
+
+.form-control:focus {
+    background-color: #212529;
+    box-shadow: none;
+    border: 1px solid #fff;
+    color: #fff
+}
+
+.signup-button {
+    height: 48px;
+    border-radius: 15px;
+}
