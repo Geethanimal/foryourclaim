@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = foryourclaim___0._4V
+build_property.ProjectDir = E:\NSBM\OneDrive - National School of Busness Management\NSBM\2nd year\2nd sem\Web development tools and practices\Project\repo\backend\Testing1\foryourclaim - 0.4V\

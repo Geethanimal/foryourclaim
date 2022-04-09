@@ -11,7 +11,7 @@ namespace foryourclaim___0._2V.Controllers
     public class WebMasterController : Controller
     {
         private readonly ILogger<WebMasterController> _logger;
-        db dbop = new db();
+        WMlogin wmob = new WMlogin();
 
         
         public IActionResult Index()
@@ -23,7 +23,7 @@ namespace foryourclaim___0._2V.Controllers
         [HttpPost]
         public IActionResult Index([Bind] WebMaster ad)
         {
-            int res = dbop.logincheck(ad);
+            int res = wmob.logincheck(ad);
             if (res == 1)
             {
                 TempData["msg"] = "You are welcome to Admin";
