@@ -1,0 +1,52 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model foryourclaim___0._2V.Models.WebMaster
+@{
+}
+
+
+<div class="bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 clone">
+                Web Master Login Panel - Foryourclaim.lk
+            </div>
+            <div class="col-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <div class="container mt-5 mb-5">
+                    <div class="row d-flex justify-content-center align-items-center">
+
+                        <div class="card bg-dark p-3 text-center text-white">
+
+                            <div class="p-2 px-5">
+                                <form asp-action="Index">
+                                    <input asp-for="username" class="form-control" placeholder="User name" type="text">
+                                    <input asp-for="password" class="form-control" placeholder="Password" type="password">
+                                    <p class="small mb-2 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
+                                    <input type="submit" class="btn btn-primary w-100 signup-button pt-6" value="Log in">
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+</div>
+@{
+    if (TempData["msg"] != null)
+    {
+        <script>
+                    alert('@TempData["msg"]')
+        </script>
+    }
+}
+
+

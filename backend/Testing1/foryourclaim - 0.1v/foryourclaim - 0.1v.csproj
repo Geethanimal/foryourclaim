@@ -5,4 +5,18 @@
     <RootNamespace>foryourclaim___0._1v</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="WebMaster\css\webmaster.css" />
+    <Content Include="WebMaster\css\Offsetting-aerial-road-system.jpg" />
+    <Content Include="WebMaster\webmaster.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\" />
+    <Folder Include="WebMaster\images\" />
+    <Folder Include="wwwroot\css\" />
+  </ItemGroup>
+
 </Project>
